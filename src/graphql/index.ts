@@ -1,3 +1,4 @@
+//すべての型定義をExpoertする
 export * from "./Link"; 
 export * from "./User";
 export * from "./Auth";

@@ -1,7 +1,9 @@
 import { ApolloServer } from "apollo-server";
 import { context } from "./context"
-// 1
 import { schema } from "./schema";
+
+
+//ApolloServerの起動
 export const server = new ApolloServer({
     schema,
     context
